@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014675019852",
+    "project_id": "quizgame-74393",
+    "storage_bucket": "quizgame-74393.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014675019852:android:de83a4a4e287f15d177ce9",
+        "android_client_info": {
+          "package_name": "David.Yesayan.brainquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIhKoqEqlR1iYPqpXChYsuGFoV-ggHxlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
