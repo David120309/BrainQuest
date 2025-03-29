@@ -5,23 +5,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/item_bg"
+    tools:context=".StartActivity">
 
-
-
-    <FrameLayout
-        android:id="@+id/wrapper"
+    <TextView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="411dp"
-        android:layout_marginBottom="731dp"
+        android:gravity="center"
+        android:text="Brain Quest"
+        android:textColor="@color/white"
+        android:textSize="52sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

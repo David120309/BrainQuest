@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".QuizFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Brain Quest"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent">
+
+
+        <TextView
+            android:id="@+id/qNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/totalQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/20"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal"
+             />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/questionCont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16sp"
+        android:layout_margin="16sp"
+        android:text="harc 1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/item_bg"/>
+    <TextView
+        android:id="@+id/option1Cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16sp"
+        android:layout_marginTop="16sp"
+        android:text="harc 1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:background="@drawable/sub_item_bg"/>
+<TextView
+    android:id="@+id/option2Cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16sp"
+    android:layout_marginStart="16sp"
+    android:layout_marginEnd="16sp"
+    android:layout_marginTop="16sp"
+        android:text="harc 1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:background="@drawable/sub_item_bg"/>
+<TextView
+    android:id="@+id/option3Cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16sp"
+    android:layout_marginStart="16sp"
+    android:layout_marginEnd="16sp"
+    android:layout_marginTop="16sp"
+        android:text="harc 1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:background="@drawable/sub_item_bg"/>
+<TextView
+    android:id="@+id/option4Cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16sp"
+        android:layout_marginTop="16sp"
+        android:text="harc 1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:background="@drawable/sub_item_bg"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Next"
+        android:background="@drawable/item_bg"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_margin="16sp"/>
+
+
+</LinearLayout>
